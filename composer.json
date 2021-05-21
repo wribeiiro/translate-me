@@ -1,0 +1,27 @@
+{
+    "name": "translate-me/wribeiiro",
+    "description": "Simple project to translate keys",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wellisson Ribeiro",
+            "email": "welleh10@gmail.com"
+        }
+    ],
+    "require": {
+        "php-webdriver/webdriver": "^1.11",
+        "chrome-php/chrome": "^0.9.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "vendor\\": "vendor/"
+        }
+    }
+}
